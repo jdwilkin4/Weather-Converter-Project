@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5a4fcf;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.title,
+.card {
+  border-radius: 15px;
+  background-color: #faf9f6;
+}
+
+.title {
+    padding: 20px 0;
+    margin: 40px auto 30px;
+    max-width: 40%;
+    font-family: "Limelight", cursive;
+}
+
+#message {
+    margin: 20px 0 30px;
+}
+
+.card {
+    max-width: 300px;
+    height: 250px;
+    padding: 15px;
+    margin: auto;
+}
+
+.input-container {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type="number"] {
+    width: 20%;
+}
+
+.result-div {
+    margin: 10px 0;
+}
+  
+.result-text {
+    margin: 10px;
+}
+
+.fas,
+.far {
+  margin-left: 5px;
+  font-size: 1.3rem;
+}
+
+.fa-fire,
+.fa-burn {
+  color: #ff0000;
+}
+
+.fa-fire {
+  font-size: 3rem;
+}
+
+.fa-sun {
+  color: #ffbf00;
+}
+
+.fa-icicles {
+  color: #00d0ff;
+}
+
+.btn {
+    color: white;
+    padding: 5px;
+    margin: 0 10px;
+    background-color: #0818a8;
+    cursor: pointer;
+    border: none;
+    border-radius: 10%;
+}
+
+@media (max-width: 500px) {
+    .title {
+      max-width: 300px;
+      font-size: 1.3rem;
+    }
+}
+  
+@media (max-width: 300px) {
+    .title {
+        max-width: 200px;
+        font-size: 1rem;
+    }
+}

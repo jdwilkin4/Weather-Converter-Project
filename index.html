@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celsius to Fahrenheit Converter</title>
+
+  <!--this is our CSS stylesheet-->
+  <link rel="stylesheet" href="styles.css">
+
+  <!--this is the font awesome cdn-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--Google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 class="title">Celsius to Fahrenheit</h1>
+
+  <div class="card">
+    <p id="message">Enter a number between -90 and 57</p>
+    <div class="input-container">
+      <input placeholder="15&deg;" type="number" value="" name="degrees" id="number" min="-90" max="57">
+      <button class="btn" id="convert">Convert</button>
+      <button class="btn" id="reset" type="reset">Reset</button>
+    </div>
+
+    <div class="result-div" id="result">
+      <i class="fas fa-fire"></i>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
